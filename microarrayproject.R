@@ -1,6 +1,5 @@
 source("http://bioconductor.org/biocLite.R")
 biocLite()
-setwd("C:/Users/elifdogandar/Desktop/data")
 library(affy)
 affy.data = ReadAffy()  #reading data into R
 #image of the raw arrays
